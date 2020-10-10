@@ -1,0 +1,1 @@
+export const SAMPLE_SEARCH_TEXT = 'Javascript';

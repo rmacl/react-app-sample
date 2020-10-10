@@ -113,6 +113,7 @@ form {
   border: 1px solid silver;
   margin-top: .5rem;
 }
+
 .book--container {
   display: flex;
   flex-flow: row nowrap;
@@ -128,3 +129,49 @@ form {
   flex-grow: 1;
 
 }
+
+.main-content {
+  display: flex;
+}
+.book-search-container {
+  width : 80%;
+  align-items: justfy;
+}
+
+.book-list-container {
+  width : 70%;
+  min-height: 250px;
+  display: flex;
+  padding: 0.5rem;
+  text-align: left;
+  align-items: left;
+}
+
+.book-info-container{
+  padding: 0.75rem;
+}
+
+.thumbnail-image-container {
+  width: 180;
+  height : 180;
+}
+
+.add-whishlist-button{
+  min-height: 30px;
+}
+
+.book-whishlist-container {
+  padding-left: 3rem;
+}
+
+.wishlist-title{
+  min-height: 15px;
+}
+
+.wishlist-row{
+  padding : 0.25em;
+  display: flex;
+  align-items: left;
+}
+
+
